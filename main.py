@@ -22,8 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # === CONFIG ===
-BOT_TOKEN = os.getenv("8630363322:AAHJzlCPomV4-ohMvQ7sh0jq-q9g8qnxf4g")
-
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
@@ -33,7 +32,7 @@ GROUP_JOIN_LINK = "https://t.me/ZAINUBHAI"
 OWNER_ID = 6292917390
 OWNER_USERNAME = "@ZAINULIVE"
 
-bot = telebot.TeleBot(8630363322:AAHJzlCPomV4-ohMvQ7sh0jq-q9g8qnxf4g)
+bot = telebot.TeleBot("8630363322:AAHJzlCPomV4-ohMvQ7sh0jq-q9g8qnxf4g")
 like_tracker = {}   # in-memory cache
 
 # Flask app for webhook
