@@ -33,7 +33,7 @@ GROUP_JOIN_LINK = "https://t.me/ZAINUBHAI"
 OWNER_ID = 6292917390
 OWNER_USERNAME = "@ZAINULIVE"
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(8630363322:AAHJzlCPomV4-ohMvQ7sh0jq-q9g8qnxf4g)
 like_tracker = {}   # in-memory cache
 
 # Flask app for webhook
